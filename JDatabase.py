@@ -36,7 +36,7 @@ class JsonDatabase(object):
                      'isadmin': 0,
                      'zips': 100,
                      'uploadtype':'calendar',
-                     'proxy':'socks5://KFFLKKZJJFJDHFZHJDHJIHZHJDMKJKRGDKMJHHMK',
+                     'proxy':'',
                      'tokenize':0}
 
     def create_admin(self,name):
