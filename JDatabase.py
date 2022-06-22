@@ -34,21 +34,21 @@ class JsonDatabase(object):
                      'moodle_user': '---',
                      'moodle_password': '---',
                      'isadmin': 0,
-                     'zips': 100,
-                     'uploadtype':'calendar',
+                     'zips': 20,
+                     'uploadtype':'evidence',
                      'proxy':'',
                      'tokenize':0}
 
     def create_admin(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': 'https://cursos.uo.edu.cu/',
+                     'moodle_host': 'http://eva.umcc.cu/pregrado/',
                      'moodle_repo_id': 4,
                      'moodle_user': '',
                      'moodle_password': '',
                      'isadmin': 1,
-                     'zips': 100,
-                     'uploadtype':'calendar',
+                     'zips': 20,
+                     'uploadtype':'evidence',
                      'proxy':'',
                      'tokenize':0}
 
